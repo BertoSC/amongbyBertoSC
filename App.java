@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-import java.util.Iterator;;
+import java.util.Iterator;
 
 public class App {
     List<Tarea> generalTar; // lista de tareas por defecto
