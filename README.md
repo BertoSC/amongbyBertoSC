@@ -5,6 +5,7 @@ Impresións ao escribir a App. ¿tiveches nalgún momento a sensación que algun
 El momento que me generó más dudas fue a la hora de vincular el menú y la clase que llevaba la estructura general del juego, que se encuentra en la clase que contiene el main y me quedé con la impresión de que la clase del main debería estar usando el menú, y no 
 a la inversa. La gestión de alguna de las listas no me pareció del todo correcta. Cada impostor almacena los estudiantes que asesina en una lista de su clase, pero tal como lo planteé yo el asesinato también se almacena en una lista en la clase del main para simplificar
 las impresiones de resultados. Me hubiera gustado darle mejor uso. 
+Por otro lado, creo que la forma en la que se imprimen los usuarios y tareas tampoco es adecuada, porque no randomiza a estudiantes e impostores, por lo que creo que se podría mejorar.
 
 
 Indica si precisaches empregar iteradores donde e porqué.
