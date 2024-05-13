@@ -3,7 +3,8 @@ El momento que me generó más dudas fue a la hora de vincular el menú y la cla
 a la inversa. La gestión de alguna de las listas no me pareció del todo correcta. Cada impostor almacena los estudiantes que asesina en una lista de su clase, pero tal como lo planteé yo el asesinato también se almacena en una lista en la clase del main para simplificar
 las impresiones de resultados. Me hubiera gustado darle mejor uso. 
 
-Indica si precisañes empregar iteradores donde e porqué.
+
+Indica si precisaches empregar iteradores donde e porqué.
 Fue necesario usar iteradores, especialmente, en la gestión de listas que implicaban recorridos y eliminaciones, para evitar resultados inesperados. Por ejemplo, en mi método comprobar asesinato fue necesario e incluso usando iteradores podría producirse una excepción
 si en primer lugar iteras sobre los estudiantes y luego sobre los impostores para comprobar si estaban en la misma habitación, dado que podría darse el caso de que dos impostores coincidieran con estudiantes en la misma sala e intentasen matar al mismo antes de que se 
 actualizase bien el listado.
@@ -24,4 +25,4 @@ No estoy contento con el resultado, a pesar de que creo que se cumple con lo que
 -no se cumple con la encapsulación ni principio de ocultación
 -no se cumple con la responsabilidad única
 -no se cumple con algunos pricipios, como que la clase tipo interaface debe usar a las otras, y no al revés.
--el código de la clase App es demasiado largo, debería haberse planteado de otra manera
+-el código de la clase App es demasiado largo, debería haberse planteado de otra manera. Creo que es lo que menos me gusta del resultado, se ve demasiado extensa en comparación con las demás. 
