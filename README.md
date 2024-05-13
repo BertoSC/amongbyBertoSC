@@ -1,3 +1,6 @@
+PD: en el vídeo sale una tarea con descripción y lugar vacíos porque al hacer el vídeo de recorrido del menú sin querer añadí una nueva con esos elementos vacíos y hubo la casualidad de que el algoritmo random la adjudicó (me faltó implementar un mecanismo de seguridad
+para manejar ese tipo de problemas, como sí se hizo para los nombres)
+
 Impresións ao escribir a App. ¿tiveches nalgún momento a sensación que algunha parte do código a estabas escribindo de forma non apropiada por falta de non aplicar un patrón non visto ou por calquera outra cuestión?.
 El momento que me generó más dudas fue a la hora de vincular el menú y la clase que llevaba la estructura general del juego, que se encuentra en la clase que contiene el main y me quedé con la impresión de que la clase del main debería estar usando el menú, y no 
 a la inversa. La gestión de alguna de las listas no me pareció del todo correcta. Cada impostor almacena los estudiantes que asesina en una lista de su clase, pero tal como lo planteé yo el asesinato también se almacena en una lista en la clase del main para simplificar
