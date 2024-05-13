@@ -27,5 +27,5 @@ Outras observacións.
 No estoy contento con el resultado, a pesar de que creo que se cumple con lo que se pedía, por diversas razones:
 -no se cumple con la encapsulación ni principio de ocultación
 -no se cumple con la responsabilidad única
--no se cumple con algunos pricipios, como que la clase tipo interaface debe usar a las otras, y no al revés.
+-no se cumple con algunos principios, como que la clase tipo interface de usuario debe usar a las otras, y no al revés.
 -el código de la clase App es demasiado largo, debería haberse planteado de otra manera. Creo que es lo que menos me gusta del resultado, se ve demasiado extensa en comparación con las demás. 
